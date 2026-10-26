@@ -1,0 +1,11 @@
+﻿Bước,Trang yêu cầu,Trạng thái RAM,Kết quả,Trang thay thế
+1,7,[7],FAULT,-
+2,0,"[7, 0]",FAULT,-
+3,1,"[7, 0, 1]",FAULT,-
+4,2,"[2, 0, 1]",FAULT,7
+5,0,"[2, 0, 1]",HIT,-
+6,3,"[2, 3, 1]",FAULT,0
+7,0,"[2, 3, 0]",FAULT,1
+8,4,"[4, 3, 0]",FAULT,2
+9,2,"[4, 2, 0]",FAULT,3
+10,3,"[4, 2, 3]",FAULT,0
